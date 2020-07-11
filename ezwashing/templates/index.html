@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <!-- <meta http-equiv="refresh" content="5"> -->
+    <title>EZ Washing Status</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">EZ Washing Status</h1>
+        <div class="grid">
+            {% for machine, status in status.items() %}
+                <div class="{{ machine }}">
+                    {% if status[0]== "Available" %}
+                        <div class="machine machine-available">
+                    {% else %}
+                        <div class="machine machine-busy">
+                    {% endif %}
+                    <div id="front-panel">
+                        <div id="status"></div>
+                    </div>
+                    <div id="front-door"></div>
+                    </div>
+                    <div class="description">
+                        <p>{{ machine }}</p>
+                        <p>{{ status[0] }}</p>
+                        <p>{{ status[1] }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

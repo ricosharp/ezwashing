@@ -1,0 +1,74 @@
+body {
+    font-family: "Poppins";
+    background-color: rgba(188, 188, 194, 0.1);
+}
+
+#title {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.machine {
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    border: 1px solid rgb(0, 0, 0);
+    height: 100px;
+    width: 100px;
+}
+
+#front-panel {
+    padding-bottom: 15%;
+    border-bottom: 1px solid black;
+}
+
+#status {
+    margin: 5px 5px 0px auto;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+#front-door {
+    margin: auto;
+    margin-top: 10px;
+    width: 55%;
+    height: 55%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.machine-busy {
+    animation: shake 0.2s;
+    animation-iteration-count: infinite;
+}
+
+.machine-available #front-panel #status {
+    background-color: #4db34d;
+}
+
+.machine-busy #front-panel #status {
+    background-color: rgb(218, 66, 66);
+}
+
+.description p {
+    margin: 0;
+    text-align: center;
+}
+
+/* Animation */
+@keyframes shake {
+    10%{transform: rotate(1deg);}
+    100%{transform: rotate(-1deg);}
+}
