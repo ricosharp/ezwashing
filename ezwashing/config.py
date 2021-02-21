@@ -38,20 +38,18 @@ machine_id_info = [
     ['ctl00_ctl00_cph_primary_cph_secondary_ctl08_lblMachineName', 'ctl00_ctl00_cph_primary_cph_secondary_ctl08_lblAvailability', 'ctl00_ctl00_cph_primary_cph_secondary_ctl08_lblTimeRemainig'],
     # Washer 7
     ['ctl00_ctl00_cph_primary_cph_secondary_ctl09_lblMachineName', 'ctl00_ctl00_cph_primary_cph_secondary_ctl09_lblAvailability', 'ctl00_ctl00_cph_primary_cph_secondary_ctl09_lblTimeRemainig'],
-    # Big Dryer 1
+    # Big Dryer 01
     ['ctl00_ctl00_cph_primary_cph_secondary_ctl10_lblMachineName', 'ctl00_ctl00_cph_primary_cph_secondary_ctl10_lblAvailability', 'ctl00_ctl00_cph_primary_cph_secondary_ctl10_lblTimeRemainig'],
-    # Big Dryer 2
+    # Dryer 03
     ['ctl00_ctl00_cph_primary_cph_secondary_ctl11_lblMachineName', 'ctl00_ctl00_cph_primary_cph_secondary_ctl11_lblAvailability', 'ctl00_ctl00_cph_primary_cph_secondary_ctl11_lblTimeRemainig'],
-    # Dryer 3
+    # Dryer 05
     ['ctl00_ctl00_cph_primary_cph_secondary_ctl12_lblMachineName', 'ctl00_ctl00_cph_primary_cph_secondary_ctl12_lblAvailability', 'ctl00_ctl00_cph_primary_cph_secondary_ctl12_lblTimeRemainig'],
-    # Dryer 4
-    ['ctl00_ctl00_cph_primary_cph_secondary_ctl17_lblMachineName', 'ctl00_ctl00_cph_primary_cph_secondary_ctl17_lblAvailability', 'ctl00_ctl00_cph_primary_cph_secondary_ctl17_lblTimeRemainig'],
-    # Dryer 5
+    # Dryer 06
     ['ctl00_ctl00_cph_primary_cph_secondary_ctl13_lblMachineName', 'ctl00_ctl00_cph_primary_cph_secondary_ctl13_lblAvailability', 'ctl00_ctl00_cph_primary_cph_secondary_ctl13_lblTimeRemainig'],
-    # Dryer 6
+    # Dryer 07
     ['ctl00_ctl00_cph_primary_cph_secondary_ctl14_lblMachineName', 'ctl00_ctl00_cph_primary_cph_secondary_ctl14_lblAvailability', 'ctl00_ctl00_cph_primary_cph_secondary_ctl14_lblTimeRemainig'],
-    # Dryer 7
+    # Dryer 08
     ['ctl00_ctl00_cph_primary_cph_secondary_ctl15_lblMachineName', 'ctl00_ctl00_cph_primary_cph_secondary_ctl15_lblAvailability', 'ctl00_ctl00_cph_primary_cph_secondary_ctl15_lblTimeRemainig'],
-    # Dryer 8
-    ['ctl00_ctl00_cph_primary_cph_secondary_ctl16_lblMachineName', 'ctl00_ctl00_cph_primary_cph_secondary_ctl16_lblAvailability', 'ctl00_ctl00_cph_primary_cph_secondary_ctl16_lblTimeRemainig'],
+    # Dryer 04
+    ['ctl00_ctl00_cph_primary_cph_secondary_ctl16_lblMachineName', 'ctl00_ctl00_cph_primary_cph_secondary_ctl16_lblAvailability', 'ctl00_ctl00_cph_primary_cph_secondary_ctl16_lblTimeRemainig']
 ]
