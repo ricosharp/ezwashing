@@ -1,11 +1,11 @@
 import requests
+import os
 
-username = ''
-password = ''
+username = os.getenv("EZWASHING_USERNAME")
+password = os.getenv("EZWASHING_PASSWORD")
 
 url = 'http://www.mylaundryaware.com/washingtoncommercial/Default.aspx'
 cookies = {
-    # 'ASP.NET_SessionId' : 'rqogmwguzfov4iqr1wh4u2fa',
     'DATABASE_ID' : 'A29AB91C76D274E555DE3610F44116C938250C210AE2867C397A3AF6AC875ACD437035B76F2F63296839C59A8AB14D8D',
     'GROUP_ID' : '49D47B06801900B2266BA3CF7652BDDB30CFFFE855482F1BF3A2654C7F28460E3DBD0D48CFA15E6DE031A5502EBF6687',
 }
